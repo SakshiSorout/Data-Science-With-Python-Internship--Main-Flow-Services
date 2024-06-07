@@ -1,0 +1,43 @@
+# LIST DATA TYPE
+
+sakshi_list = ["apple", "banana", "cherry", "orange", "mango"]
+print("Initial List:", sakshi_list)
+
+sakshi_list.append("grapes")
+print("List after adding element:", sakshi_list)
+
+sakshi_list.remove("cherry")
+print("List after removing element:", sakshi_list)
+
+sakshi_list[1] = "kiwi"
+print("List after modifying element:", sakshi_list)
+
+# DICTIONARY DATATYPE
+
+sakshi_dict = {"sun": "star", "earth": "planet", "moon": "satellite", "mars": "planet"}
+print("Celestial Object Dictionary:", sakshi_dict)
+
+sakshi_dict["jupiter"] = "gas giant"
+print("Dictionary after adding jupiter:", sakshi_dict)
+
+del sakshi_dict["moon"]
+print("Dictionary after removing moon:", sakshi_dict)
+
+sakshi_dict["earth"] = "pale blue dot" 
+print("Dictionary after modifying earth type:", sakshi_dict)
+
+# SET DATATYPE
+
+sakshi_set = {"red", "green", "blue", "yellow", "purple"}
+print("Initial Set:", sakshi_set)
+
+sakshi_set.add("indigo")
+print("Set after adding element:", sakshi_set)
+
+
+sakshi_set.remove("yellow")
+print("Set after removing element:", sakshi_set)
+
+sakshi_set.discard("green")
+sakshi_set.add("violet")
+print("Set after modifying element:", sakshi_set)
